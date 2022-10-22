@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ADVENTURE</title>
+    <!--CSS-->
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Nav bar-->
+    <nav class="navbar">
+      <h1 class="logo">ADVENTURE.</h1>
+      <u1 class="nav-links">
+        <li class="active"><a href="#"></a>Home</li>
+        <li><a href="#"></a>Tours</li>
+        <li><a href="#"></a>Explore</li>
+        <li><a href="#"></a>About</li>
+        <li class="ctn"><a href="#"></a>Contact</li>
+      </u1>
+      <img src="./img/menu-btn.png" alt="" class="menu-btn" />
+    </nav>
+    <header>
+      <div class="header-content">
+        <h2>Explore The Colorful World.</h2>
+        <div class="line"></div>
+        <h1>A WONDERFUL GIFT.</h1>
+        <a href="#" class="ctn">Learn More.</a>
+      </div>
+    </header>
+    <!--Events-->
+    <section class="events">
+      <div class="title">
+        <h1>Upcoming Events</h1>
+        <div class="line"></div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img src="./img/road.jpg" style="width: 30vw; height: 60vh" alt="" />
+          <h4>Everest Camp Trek</h4>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut
+            architecto, fugit a harum ex quo!
+          </p>
+          <a href="#" class="ctn">Learn More</a>
+        </div>
+        <div class="col">
+          <img
+            src="./img/kingbridge.jpg"
+            style="width: 25vw; height: 60vh"
+            alt=""
+          />
+          <h4>Walking Holidays</h4>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut
+            architecto, fugit a harum ex quo!
+          </p>
+          <a href="#" class="ctn">Learn More</a>
+        </div>
+      </div>
+    </section>
+    <section class="explore">
+      <div class="explore-content">
+        <h1>EXPLORE THE WORLD</h1>
+        <div class="line"></div>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit nulla
+          qui debitis magni, facilis nemo maiores possimus voluptates fugiat eos
+          nam? Repellat dolor ducimus quam.
+        </p>
+        <a href="#" class="ctn">Learn More</a>
+      </div>
+    </section>
+    <section class="tours">
+      <div class="row">
+        <div class="col content-col">
+          <h1>UPCOMING TOURS & DESTINATION</h1>
+          <div class="line"></div>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni
+            voluptate expedita labore enim repellendus incidunt, ad non iure
+            amet. Cupiditate omnis earum voluptatum ad exercitationem beatae
+            quas quam expedita hic?
+          </p>
+          <a href="#" class="ctn">Learn More</a>
+        </div>
+        <div class="col image-col">
+          <div class="image-gallery">
+            <img
+              src="./img/loner.jpg"
+              style="width: 20vw; height: 50vh"
+              alt=""
+            />
+            <img
+              src="./img/princeroad.jpg"
+              style="width: 20vw; height: 50vh"
+              alt=""
+            />
+            <img
+              src="./img/john.jpg"
+              style="width: 20vw; height: 50vh"
+              alt=""
+            />
+            <img
+              src="./img/road.jpg"
+              style="width: 25vw; height: 50vh"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <p>
+        KYU, Nairobi - Kerugoya Road, Kutus - Kerugoya, Kenya | Phone:
+        0113225565 | Email:johnchege2445@gmail.com
+      </p>
+      <p>Copyright &copy; 2022 Outdoor Adventure</p>
+    </section>
+    <script>
+      const menuBtn = document.querySelector(".menu-btn");
+      const navlinks = document.querySelector(".nav-links");
+
+      menuBtn.addEventListener("click", () => {
+        navlinks.classList.toggle("mobile-menu");
+      });
+    </script>
+  </body>
+</html>
